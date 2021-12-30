@@ -1,0 +1,4 @@
+name: Rename master branch to main
+description: Renames the default branch to main if it is currently set to master
+repository: octoherd/script-rename-master-branch-to-main
+package: @octoherd/script-rename-master-branch-to-main
