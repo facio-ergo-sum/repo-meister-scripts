@@ -2,3 +2,4 @@ name: Close Renovate dashboard issues
 description: Script to close Renovate dashboard issues
 repository: octoherd/script-close-renovate-dashboard-issues
 package: '@octoherd/script-close-renovate-dashboard-issues'
+version: 2.0.0

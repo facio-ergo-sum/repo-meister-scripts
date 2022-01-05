@@ -2,6 +2,7 @@ name: Sync branch protections
 description: Apply branch protection settings from one repository to others
 repository: octoherd/script-sync-branch-protections
 package: '@octoherd/script-sync-branch-protections'
+version: 2.0.2
 options:
   - name: template
     type: string

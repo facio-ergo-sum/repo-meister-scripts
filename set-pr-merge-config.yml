@@ -2,6 +2,7 @@ name: Set PR merge configuration
 description: Set Pull Request merge configuration
 repository: MunifTanjim/octoherd-script-set-pr-merge-config
 package: octoherd-script-set-pr-merge-config
+version: 1.1.0
 options:
   - name: merge-commit
     type: boolean
