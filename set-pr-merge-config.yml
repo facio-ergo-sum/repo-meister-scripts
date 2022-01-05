@@ -12,4 +12,5 @@ options:
     description: Rebase merging
   - name: squash-merge
     type: boolean
+    defaultValue: true
     description: Squash merging
