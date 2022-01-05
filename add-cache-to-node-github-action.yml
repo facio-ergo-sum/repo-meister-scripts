@@ -1,0 +1,11 @@
+name: Add cache to Node Github action
+description: Add cache parameter to GitHub Actions using setup-node
+repository: oscard0m/octoherd-script-add-cache-to-node-github-action
+package: 'octoherd-script-add-cache-to-node-github-action'
+version: 1.2.1
+options:
+  - name: cache
+    type: string
+    description: 'Select which package manager you want to use for caching.'
+    required: true
+    defaultValue: 'npm'

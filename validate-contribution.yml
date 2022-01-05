@@ -1,0 +1,15 @@
+name: Validate contribution
+description: Validate contributions
+repository: bdougie/octoherd-script-validate-contribution
+package: 'octoherd-script-validate-contribution'
+version: 1.0.3
+options:
+  - name: label
+    type: string
+    description: 'Label to apply to issues/pull-requests'
+    required: true
+    defaultValue: 'needs info'
+  - name: text
+    type: string
+    description: 'Forbidden text to mark issues/pull-requests with label'
+    defaultValue: 'TODO'
