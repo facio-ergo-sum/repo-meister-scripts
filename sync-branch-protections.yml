@@ -1,0 +1,9 @@
+name: Sync branch protections
+description: Apply branch protection settings from one repository to others
+repository: octoherd/script-sync-branch-protections
+package: '@octoherd/script-sync-branch-protections'
+options:
+  - name: template
+    type: string
+    description: 'Repository name from where to copy the branch protection settings. Example: --template "octoherd/cli"'
+    required: true
