@@ -1,0 +1,5 @@
+name: CLI to script
+description: Upgrade current scripts to use the built-in CLI
+repository: octoherd/script-add-octoherd-cli-to-script
+package: '@octoherd/script-add-octoherd-cli-to-script'
+version: 2.0.0

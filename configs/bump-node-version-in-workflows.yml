@@ -1,0 +1,14 @@
+name: Bump Node version in workflows
+description: Set the node-version input for actions/setup-node to the latest LTS major version
+repository: gr2m/octoherd-script-bump-node-version-in-workflows
+package: octoherd-script-bump-node-version-in-workflows
+version: 1.0.0
+options: 
+  - name: version
+    type: string
+    description: Defaults to latest Node LTS major version (v16). You can set it to lts/* to always get the latest LTS version if you prefer
+    defaultValue: v16
+  - name: workflow
+    type: string
+    description: Workflow file name or pattern to only update a subset of workflows. matcher is used for matching. Defaults to *
+    defaultValue: '*'

@@ -1,0 +1,10 @@
+name: Copy labels
+description: Copies labels from one repo to the next
+repository: octoherd-script-copy-labels
+package: octoherd-script-copy-labels
+version: 2.0.0
+options: 
+  - name: template
+    type: string
+    decription: The repo you want the labels to be copied from
+    required: true

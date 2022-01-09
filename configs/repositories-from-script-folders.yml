@@ -1,0 +1,10 @@
+name: Repositories from script folders
+description: Create new repositories from folders
+repository: octoherd/script-create-repositories-from-script-folders
+package: '@octoherd/script-create-repositories-from-script-folders'
+version: 2.0.0
+options: 
+  - name: path-to-folders
+    type: string
+    description: Relative path to where the folders are located
+    required: true

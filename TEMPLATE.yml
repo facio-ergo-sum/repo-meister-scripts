@@ -1,0 +1,11 @@
+name: # e.g.: Rename master branch to main
+description: # e.g.: Renames the default branch to main 
+repository: # Github slug, e.g.: octoherd/script-rename-master-branch-to-main 
+package: # NPM package, e.g.: '@octoherd/script-rename-master-branch-to-main'
+version: # NPM version, e.g.: 1.0.0
+options: # Optional list of options
+  - name: # Command-line option mame, e.g.: template
+    type: # boolean or string
+    description: # Short description
+    defaultValue: # Optional default value, e.g.: true
+    required: # Set to true if required, default is false
