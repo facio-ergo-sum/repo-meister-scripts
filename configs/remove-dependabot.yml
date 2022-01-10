@@ -1,0 +1,5 @@
+name: Remove dependabot
+description: Delete the .github/dependabot.yml file
+repository: octoherd/script-remove-dependabot
+package: '@octoherd/script-remove-dependabot'
+version: 2.0.0

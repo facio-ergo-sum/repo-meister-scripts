@@ -1,0 +1,10 @@
+name: Sync repo settings 
+description: Sync settings between repositories
+repository: oscard0m/octoherd-script-sync-repo-settings
+package: octoherd-script-sync-repo-settings
+version: 1.0.0
+options: 
+  - name: template
+    type: string
+    description: Repository name from where to copy the settings from
+    required: true

@@ -1,0 +1,10 @@
+name: Star or unstar
+description: Add or remove repository star
+repository: octoherd/script-star-or-unstar
+package: '@octoherd/script-star-or-unstar'
+version: 2.0.0
+options: 
+  - name: unstar
+    type: boolean
+    description: Set to remove a star instead of adding one
+    defaultValue: false
