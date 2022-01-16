@@ -3,6 +3,7 @@ description: Add or remove repository star
 repository: octoherd/script-star-or-unstar
 package: '@octoherd/script-star-or-unstar'
 version: 2.0.0
+scope: user
 options: 
   - name: unstar
     type: boolean
